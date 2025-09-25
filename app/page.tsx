@@ -112,12 +112,14 @@ export default function Page() {
                 lineHeight: 1.6
               }}
               onFocus={(e) => {
-                e.target.style.border = '2px solid rgba(255, 255, 255, 0.3)';
-                e.target.style.background = 'rgba(255, 255, 255, 0.12)';
+                const target = e.target as HTMLTextAreaElement;
+                target.style.border = '2px solid rgba(255, 255, 255, 0.3)';
+                target.style.background = 'rgba(255, 255, 255, 0.12)';
               }}
               onBlur={(e) => {
-                e.target.style.border = '2px solid rgba(255, 255, 255, 0.1)';
-                e.target.style.background = 'rgba(255, 255, 255, 0.08)';
+                const target = e.target as HTMLTextAreaElement;
+                target.style.border = '2px solid rgba(255, 255, 255, 0.1)';
+                target.style.background = 'rgba(255, 255, 255, 0.08)';
               }}
             />
           </div>
@@ -141,14 +143,16 @@ export default function Page() {
               }}
               onMouseEnter={(e) => {
                 if (canAsk) {
-                  e.target.style.transform = 'translateY(-2px)';
-                  e.target.style.boxShadow = '0 12px 35px rgba(102, 126, 234, 0.4)';
+                  const target = e.target as HTMLElement;
+                  target.style.transform = 'translateY(-2px)';
+                  target.style.boxShadow = '0 12px 35px rgba(102, 126, 234, 0.4)';
                 }
               }}
               onMouseLeave={(e) => {
                 if (canAsk) {
-                  e.target.style.transform = 'translateY(0)';
-                  e.target.style.boxShadow = '0 8px 25px rgba(102, 126, 234, 0.3)';
+                  const target = e.target as HTMLElement;
+                  target.style.transform = 'translateY(0)';
+                  target.style.boxShadow = '0 8px 25px rgba(102, 126, 234, 0.3)';
                 }
               }}
             >
@@ -241,12 +245,14 @@ export default function Page() {
                     transition: 'all 0.3s ease'
                   }}
                   onMouseEnter={(e) => {
-                    e.target.style.background = 'rgba(255, 255, 255, 0.08)';
-                    e.target.style.transform = 'translateY(-1px)';
+                    const target = e.target as HTMLDivElement;
+                    target.style.background = 'rgba(255, 255, 255, 0.08)';
+                    target.style.transform = 'translateY(-1px)';
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.background = 'rgba(255, 255, 255, 0.05)';
-                    e.target.style.transform = 'translateY(0)';
+                    const target = e.target as HTMLDivElement;
+                    target.style.background = 'rgba(255, 255, 255, 0.05)';
+                    target.style.transform = 'translateY(0)';
                   }}>
                     <div style={{
                       color: 'rgba(255, 255, 255, 0.95)',
