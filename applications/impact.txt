@@ -1,0 +1,2 @@
+In Q2, I automated the monthly KPI report generation, reducing manual effort by ~10 hours per month. I built a robust pipeline with validation checks, alerting, and data lineage metadata. This enabled faster and more confident decision-making across Growth and Operations teams, contributing to a 7% improvement in activation rate.
+

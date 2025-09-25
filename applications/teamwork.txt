@@ -1,0 +1,2 @@
+Collaboration is central to my work. On a recent analytics initiative, I partnered with product managers to clarify acceptance criteria, paired with backend engineers on API contracts, and coordinated with QA to create data seeding scripts. Our team held daily standups and used a shared decision log to capture tradeoffs, which reduced miscommunication and helped us ship a cohesive release.
+

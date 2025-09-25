@@ -1,0 +1,2 @@
+I led a cross-functional team of 8 engineers, designers, and analysts to deliver a customer onboarding feature 3 weeks ahead of schedule. My responsibilities included sprint planning, risk management, stakeholder updates, and conflict resolution. I introduced a weekly demo ritual that improved alignment and reduced rework by 20%. I also mentored two junior engineers, helping them ramp up on TypeScript and testing best practices.
+

@@ -1,0 +1,2 @@
+Skills: Python, JavaScript/TypeScript, React, Next.js, Node.js, SQL (Postgres/BigQuery), data modeling, ETL, analytics engineering, experimentation, dashboarding (Looker/Metabase), cloud (GCP/AWS), CI/CD, unit/integration testing, stakeholder communication, mentoring, agile delivery.
+

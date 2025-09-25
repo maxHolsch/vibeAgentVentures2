@@ -1,0 +1,1 @@
+As a data analyst, I built dashboards and automated reports. I collaborated with engineering to define metrics and improved decision-making.

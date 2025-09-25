@@ -1,0 +1,1 @@
+My leadership experience includes leading a cross-functional team to deliver a product ahead of schedule. I mentored interns and improved processes.
